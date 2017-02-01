@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+    }
+
+body {
+	   background-image: url();
+	   background-color: ;
+	   font-family: 'Georgia', Times, Times New Roman, serif;
+	   font-size: 18px;
+	   line-height: 30px;
+	   
+    }
+
+#heading  {
+	    
+	    background-color: #f2f2f2;
+        color: #4aaaa5;
+}
+
+h1  {
+	    font-size: 36px;
+	    font-family: 'Georgia', Times, Times new Roman, serif;
+	    line-height: 50px;
+	    margin-bottom: 20px;
+	    color: #4aaaa5;
+	    border-bottom: 3px solid #333;
+	    padding-bottom: 20px;
+    }
+
+h3  {
+	    font-size: 26px;
+    }
+
+h4,   {
+        font-size: 22px;
+        color: solid black;
+    }
+
+span  {
+	   color: White;
+	   font-size: 22px;
+    }
+
+h1  {
+	    font-size: 36px;
+	    font-family: 'Georgia', Times, Times new Roman, serif;
+	    line-height: 50px;
+	    margin-bottom: 20px;
+	    color: #4aaaa5;
+	    border-bottom: 3px solid #333;
+	    padding-bottom: 20px;
+    }
+
+h2, h3  {
+	    font-size: 26px;
+    }
+/* Form starts here */
+ .lbl {
+        text-align: right;
+        width: 100px;
+        white-space: nowrap;
+    }
+
+    .fld {
+        width: 100%;
+    }   
+
+    .frm {
+        display: inline-block;
+    }
+
+
+
+/* Form starts here */
+.panel-heading  {
+	   background-color: #4aaaa5;
+}
+
+.panel-heading, h4  {
+	   color: White;
+	   font-size: 22px;
+	   padding: 10 10 10 10;
+}
+
+
+#userlist, table {
+
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x:auto;
+    padding: 10 10 10 10;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th, h4 {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
+
+input[type=text] {
+    
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+  
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+
+#add-show {
+    background-color: #4aaaa5;
+    width:150px; 
+    font-size: 22px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

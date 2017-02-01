@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LIST of MY FAVOURITE SHOWS!!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/mylist.css">
+
+</head>
+<body>
+
+	<div class="container">
+	     
+      <h1><strong>Make Your Own Favourites' List</strong></h1>
+      
+        <div class="row col-xs-12 col-lg-12">
+         
+            <div class="panel-heading">
+              <h4><strong> Current Favourite Shows </strong></h4>
+            </div> 
+            
+            <div class="panel-body">
+              <table id="myavouritesForm" class="table table-hover table-striped table-responsive">
+		        <thead>
+		            <th><h4>Show-Name</h4></th>
+		            <th><h4> Channel </h4></th>
+		            <th><h4> Date </h4></th>
+		            <th><h4> Day </h4></th>
+		            <th><h4> Timing </h4></th>
+		            <th><h4> Alert: 30 min </h4></th>
+		            <th><h4> Alert: 15 min </h4></th>
+		        </thead>
+                <tbody>
+		            <tr>
+		              <td></td>
+			            <td></td> 
+			            <td></td>
+			            <td></td>
+			            <td></td>
+			            <td></td>
+		            </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+        <div class="row col-xs-8 col-lg-8">
+        <div class="panel-heading">
+              <h4><strong> Add Your Favourite Shows </strong></h4>
+            </div> 
+        <div class="panel-body">
+          <form role="form">
+
+            <fieldset>
+
+              <table>
+                <tr>
+                    <td class="lbl"><label for="show-name">Show Name:</label></td>
+                    <td><input class="field" id="name" type="text" required></td>
+                </tr>
+
+                <tr>
+                    <td class="lbl"><label for="channel-name">Channel Name:</label></td>
+                    <td><input class="field" id="channel" type="text" required></td>
+                </tr>
+
+                <tr>
+                    <td class="lbl"><label for="date-input">Date:</label></td>
+                    <td><input class="field" id="date" type="date" required></td>
+                </tr>
+
+                <tr>
+                    <td class="lbl"><label for="day-input">Day:</label></td>
+                    <td><input class="field" id="day" type="day" value="" required></td>
+                </tr>
+
+                <tr>
+                    <td class="lbl"><label for="timing-input"> Timing: am/pm </label></td>
+                    <td><input class="field" id="timing" type="00:00" value="" required></td>
+                </tr>
+
+                <tr>
+                    <td class="lbl"><label for="alert 30 min-input"> Alert: 30 min </label></td>
+                    <td><input class="field" id="alert" type="alert" value="" required></td>
+                </tr>
+                
+                <tr>
+                    <td class="lbl"><label for="alert 15 min-input"> Alert: 15 min </label></td>
+                    <td><input class="field" id="alert1" type="alert" value="" required></td>
+                </tr>
+
+
+              </table>
+            </fieldset>
+                    <input type="button" class="btn btn-default" id="add-show" value="Add-Show"/>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script> 
+  <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>                   
+   <script src="./assets/javascript/mylist.js"></script> 
+
+             
+</body>
+</html>
